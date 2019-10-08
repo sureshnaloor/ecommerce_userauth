@@ -7,8 +7,6 @@ require('./models/User')  // order is important this should come before passport
 
 require('./helpers/passport')
 
-
-
 mongoose.connect(keys.mongoURI);
 
 const authRoutes = require('./routes/authRoutes')
